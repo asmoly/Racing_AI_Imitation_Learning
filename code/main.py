@@ -30,6 +30,7 @@ def collect_data():
         print("Collecting Data #", i)
 
     save_data(raycastData, targets)
+    print("Finished collecting data")
 
 def save_data(raycastData, targets):
     print("saving data")
